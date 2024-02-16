@@ -1,0 +1,302 @@
+/*Navbar*/
+.chn
+{
+	border-right:3px solid orange;
+}
+.h1{
+		width: 0ch;
+		overflow:hidden;	
+		white-space:nowrap;
+		animation:text 5s steps(16) infinite alternate; 
+		font-size: 40px;
+	}
+	@keyframes text{
+		0%{
+			width: 0ch;
+		}
+		50%{
+			width: 15ch;
+		}
+}
+.h4{
+		width: 0ch;
+		overflow:hidden;	
+		white-space:nowrap;
+		animation:animate 5s steps(25) infinite alternate; 
+		border-right:3px solid orange;
+		font-size: 40px;
+	}
+	@keyframes animate{
+		0%{
+			width: 0ch;
+		}
+		50%{
+			width: 25ch;
+		}
+}
+nav a
+{
+	font-size: 20px;
+}
+button
+{
+	background: darkorange;
+}
+/*Banner Section*/
+.txclr
+{
+	color: darkorange;
+}
+.hclr
+{
+	color: white;
+}
+.im2{
+	border-radius: 10%;
+}
+.col-lg-8
+{
+	opacity: 0.3;
+}
+.col-lg-8:hover
+{
+	opacity: 0.9;
+}
+/*Education*/
+.cm
+{
+	border:1px solid darkorange;
+	box-shadow:1px 1px 10px darkorange;
+}
+.cards6
+{
+	background-color:#303030;
+	border: 2px solid #404040;
+	height: 240px;
+	width: 97%;
+	transition: transform 1s;
+}
+.cards6:hover
+{
+	transition: transform 1s;
+	transform: scale(1.1,1.1);
+}
+/*My Projectx*/
+.pj
+{
+	border: 2px solid #404040;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	opacity: 0.3;
+	display: block;
+}
+.pj:hover
+{
+	opacity: 0.9;
+}
+/*My Skill*/
+.skm .skb .info
+{
+	display: flex;
+	justify-content: space-between;
+	space: 0 10px;
+	color: white;
+	font-weight: bold;
+}
+.skb .info .per
+{
+	font-weight: bold;
+	color: white;
+}
+.skb .bar
+{
+	height: 10px;
+	background: gray;
+	position: relative;
+	border-radius: 25px;
+}
+.skb .bar span
+{
+	height: 100%;
+	position: absolute;
+	border-radius: 25px;
+	background: #cc5200;
+}
+.html
+{
+	width: 80%;
+	animation: html 3s;
+}
+@keyframes html
+{
+	0%
+	{
+		width: 0%;
+	}
+	80%
+	{
+		width: 80%;
+	}
+}
+.com
+{
+	width: 60%;
+	animation: com 3s;
+}
+@keyframes com
+{
+	0%
+	{
+		width: 0%;
+	}
+	60%
+	{
+		width: 60%;
+	}
+}			
+.bts
+{
+	width: 80%;
+	animation: bts 3s;
+}
+@keyframes bts
+{
+	0%
+	{
+		width: 0%;
+	}
+	80%
+	{
+		width: 80%;
+	}
+}
+.ps
+{
+	width: 90%;
+	animation: ps 3s;
+}
+@keyframes ps
+{
+	0%
+	{
+		width: 0%;
+	}
+	90%
+	{
+		width: 90%;
+	}
+}
+.js
+{
+	width:90%;
+	animation: js 3s;
+}
+@keyframes js
+{
+	0%
+	{
+		width: 0%;
+	}
+	90%
+	{
+		width: 90%;
+	}
+}
+.hw
+{
+	width:90%;
+	animation: hw 3s;
+}
+@keyframes hw
+{
+	0%
+	{
+		width: 0%;
+	}
+	90%
+	{
+		width: 90%;
+	}
+}
+.c
+{
+	width:97%;
+	animation: c 3s;
+}
+@keyframes c
+{
+	0%
+	{
+		width: 0%;
+	}
+	97%
+	{
+		width: 97%;
+	}
+}
+.tw
+{
+	width:80%;
+	animation: tw 3s;
+}
+@keyframes tw
+{
+	0%
+	{
+		width: 0%;
+	}
+	80%
+	{
+		width: 80%;
+	}
+}
+/*other*/
+.c1{
+	color:white;
+}
+.ro{
+	border:1px solid darkorange;
+}
+.b1{
+	color:white;
+	background-color:darkorange;
+	text:white;
+	padding:10px;
+}
+.rounded-3
+{
+	border: 2px solid #404040;
+	background:#303030;
+}
+/*Contact*/
+input{
+	background-color:#303030;
+	width:100%;
+}
+textarea{
+	background-color:#303030;
+}
+.r1 
+{
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+}
+#i1:hover
+{
+	color: blue;
+}
+#i2:hover
+{
+	color: skyblue;
+}
+#i3:hover
+{
+	color: deeppink;
+}
+#i4:hover
+{
+	color: skyblue;
+}
